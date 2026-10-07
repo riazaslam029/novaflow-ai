@@ -34,6 +34,30 @@ NovaFlow AI is a high-precision, production-grade Project Management CRM built f
 
 ---
 
+## Visual Walkthrough & System Screenshots
+
+### 1. Executive Admin Dashboard (Real-Time Metrics)
+![Executive Admin Dashboard](./docs/screenshots/01-admin-overview.png)
+*Figure 1: Executive Administrator Overview displaying real-time platform metrics (3 Projects, 12 Tasks, 124 Effort Hours, 10 Seeded Members), active client deliverable cards, and the primary AI Transcript CTA.*
+
+### 2. Company-Wide Projects Portfolio
+![Projects Overview](./docs/screenshots/02-projects-overview.png)
+*Figure 2: Complete Project Portfolio generated automatically from the meeting transcript, highlighting client accounts (HelpDeskPro Solutions, QuickServe Services, UrbanCart Clothing), designated Project Managers, final delivery deadlines, and cumulative developer effort.*
+
+### 3. All System Tasks & Delivery Schedule
+![All System Tasks](./docs/screenshots/03-all-system-tasks.png)
+*Figure 3: System-Wide Task Execution Board showing all 12 tasks atomically extracted from the planning session with assigned developer agents, revised deadlines, and effort estimates (124 hours total).*
+
+### 4. Role-Based Agent Workspace (Ali Raza — Full-Stack Developer)
+![Agent Scoped Workspace](./docs/screenshots/04-agent-dashboard.png)
+*Figure 4: Enforced Server-Side Authorization in action — Developer Agent Ali Raza (DEV01) sees strictly his 1 active project and 3 assigned tasks (26 hrs total effort). Inaccessible projects and foreign agent tasks are completely filtered out.*
+
+### 5. Verified NovaWorks Team Directory
+![Team Directory](./docs/screenshots/05-team-directory.png)
+*Figure 5: Read-Only Team Directory showcasing all 10 seeded company members with reference IDs (ADMIN, PM01–PM03, DEV01–DEV06), role badges, specializations, and verified technical skills leveraged by the AI matching engine.*
+
+---
+
 ## Technology Stack
 - **Frontend**: Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS, Lucide Icons, clsx / tailwind-merge
 - **Backend**: Next.js Server Handlers, Node.js 24 runtime, Edge-compatible HTTP cookies
